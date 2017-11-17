@@ -1,8 +1,4 @@
 /*mobile view*/
-* {
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-}
 
 .panel { 
 	background: url(images/home-background-mobile.jpg) no-repeat center center; 
@@ -10,8 +6,8 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 5% 0 10%;
-	
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
 }
 .panel h1 {
 	font-size: 30px;
@@ -35,40 +31,36 @@
 	font-size: 18px;
 	font-weight: 600;
 	text-decoration: none;
-	margin: 0;
 	color: #fff;
+	padding: 12px auto;
+	
 } 
-.closing-img {
-	background: url(images/pine-cone-mobile.jpg)no-repeat center center;	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-.closing h2 {
-	padding-top: 35%;
-	font-size: 22px;
-	color: #999;
+.closing {
+	background: url("./images/pine-cone-mobile.jpg")no-repeat center center;
+	background-size:100% auto;
 }
 .closing h4 {
+	font-family: Monteserrt, sans-serif;
 	font-size: 22px;
 	color: #666;
 }
-
+.closing h2 {
+	font-family: Monteserrt, sans-serif;
+	font-size: 22px;
+	color: #999;
+}
 .closing button {
-	display: block;
-	margin: 5px auto 0;
-	background:  #bca64d; /*gold*/
-	border: none;
+	font-family: Monteserrat, sans-serif;
 	font-weight: 600;
 	color: #fff; 
 }
 .closing p {
 	font-size:11px;
 	font-weight: 300;
-	margin: 0;
 	color: #999;
 	}
+
+Button - 18px Montserrat Semibold #fff Small text - 11px Montserrat Light #999
 a #shop {
 	background: #bca64d;/*gold*/
 	font-size: 22px;
@@ -81,7 +73,7 @@ a #shop {
 
 footer {
 	background: #fff;
-	
+	font-family: 'Montserrat', sans-serif;
 	
 }
 img .pineCone{
