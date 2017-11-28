@@ -7,6 +7,9 @@
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
+	min-height: 412px;
+	padding-top: 10px;
+	padding-bottom: 100px;
 	color: #fff;
 }
 .panel h1 {
@@ -31,13 +34,18 @@
 	font-size: 18px;
 	font-weight: 600;
 	text-decoration: none;
-	color: #fff;
-	padding: 12px auto;
+	margin: 0 auto;
+	color: #fff;	
 	
 } 
 .closing {
 	background: url("./images/pine-cone-mobile.jpg")no-repeat center center;
-	background-size:100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 250px;
+
 }
 .closing h4 {
 	font-family: Monteserrt, sans-serif;
@@ -47,6 +55,7 @@
 .closing h2 {
 	font-family: Monteserrt, sans-serif;
 	font-size: 22px;
+	padding-top: 175px;
 	color: #999;
 }
 .closing button {
@@ -58,17 +67,26 @@
 	font-size:11px;
 	font-weight: 300;
 	color: #999;
-	}
+}
+.cta-shop {
+	text-transform: uppercase;
+	background: #bca64d;/*gold*/
+	line-height: 2;
+	font-siz
+	text-decoration: none;
+	color: #fff;
+	padding: .5em 1em;
+}
 
 Button - 18px Montserrat Semibold #fff Small text - 11px Montserrat Light #999
-a #shop {
+a .shop {
 	background: #bca64d;/*gold*/
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 1.3em;
 	text-transform: uppercase;
 	color: #fff;
-	margin: 0 auto;{
+	margin: 0 auto;
 }
 
 footer {
@@ -76,7 +94,7 @@ footer {
 	font-family: 'Montserrat', sans-serif;
 	
 }
-img .pineCone{
+img .pineCone {
 	width: 100%;
 }
 .email-input {
@@ -94,15 +112,15 @@ img .pineCone{
 	color: #fff;
 	margin: 0 auto;
 }
-ul .copy-links {
+.copy-links {
 	font-style: 12px;
 	font-weight: 300;
-	list-style-type: none;
 	line-height: 2em;
+	list-style: none;
 	text-decoration: none;
 }
-footer .jumbotron {
-	margin-top: -35px;
+.jumbotron.email-input {
+	margin: 1% auto;
 }
 footer a:link {
 	color:#999;
